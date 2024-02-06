@@ -2,7 +2,9 @@ import requests
 
 # Function to fetch Ethereum transactions from Etherscan API
 def fetch_ethereum_transactions(address, start_block=0, end_block=99999999):
-    api_key = open("api_key.txt").read().strip()
+    with open("api_key") as file:
+        api_key = file.read().strip()
+
     url = f"https://api.etherscan.io/api?module=account&action=txlist&address={address}&startblock={start_block}&endblock={end_block}&sort=desc&apikey={api_key}"
     response = requests.get(url)
     data = response.json()

@@ -3,7 +3,9 @@ import matplotlib.pyplot as plt
 
 # Function to fetch Ethereum block data using Etherscan API
 def get_ethereum_block_data(block_number):
-    api_key = open("api_key.txt").read().strip()
+    with open("api_key.txt") as file:
+        api_key = file.read().strip()
+
     url = f"https://api.etherscan.io/api?module=block&action=getblockreward&blockno={block_number}&apikey={api_key}"
     response = requests.get(url)
     data = response.json()
