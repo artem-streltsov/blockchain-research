@@ -7,7 +7,7 @@ tags:
 ---
 
 ## Introduction
-From static Web1 pages to the interactive platforms of Web2, the internet has evolved dramatically. With its core principles of decentralisation and user empowerment, Web3 offers a new vision for the future of online interaction
+The Internet has evolved significantly since its inception, with each iteration bringing about fundamental changes in how we engage with online content and services. From the static pages of Web1 to the interactive platforms of Web2, and now the decentralised Web3, these transitions have reshaped our digital experiences.
 
 ## Web1: Read-Only
 Web1, the early stage of the World Wide Web, laid the foundation for today's internet landscape. Spanning from the 1990s to the early 2000s, it introduced millions to sharing information online.
@@ -60,6 +60,3 @@ Web3 is difficult to use due to its technical complexity. Users must decipher te
 
 ### Scalability
 Some Web3 platforms struggle with scalability, resulting in slow transaction processing times and high fees during periods of network congestion.
-
-## Conclusion
-Web3 represents a promising evolution of the internet, prioritizing decentralisation and user empowerment. Despite challenges, it has a substantial potential to create a more inclusive and secure online environment.
